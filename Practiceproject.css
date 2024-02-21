@@ -1,0 +1,63 @@
+#container{
+    margin: 10px;
+
+}
+
+button{
+    width:100%;
+}
+
+.question{
+    background-color: #fafafa;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px; 
+    margin-bottom:20px;
+    font-size: .1em;
+
+}
+
+#answer{
+    display:none;
+}
+
+
+.invisible{
+
+    display: none;
+
+}
+/* game board table */
+
+#board td {
+    width: 250px;
+    height: 100px;
+    border: solid 1px #666;
+    background-color:  peachpuff;
+  }
+
+  #restart{
+      color: red;
+      background-color: white;
+  width: 20px;
+  padding: 20px;
+  border: none;
+  }
+
+
+  #column-top td {
+    border: dashed 1px lightgray;
+  }
+
+
+  
+  
+
+
+  /* pieces are div within game table cells: draw as colored circles */
+  
+
+  
+  /* column-top is table row of clickable areas for each column */
+  
+
